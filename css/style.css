@@ -1,0 +1,125 @@
+/*Write your style here*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: impact;
+
+}
+#header{
+	width: 100%;
+	height: 80px;
+	background:#3B3D64;
+	border:0px solid;
+
+	 }
+
+#header #centro{
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	border:0px solid;
+	margin: auto;
+
+}
+#header #centro #logo {
+	width: 230px;
+	border: 0px solid;
+	float: left;
+}
+.img{
+	
+	width: 100%;
+	height: auto;
+	border:0px solid;
+	margin: 20px 0px;
+	float: right;
+}
+
+#header #menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 0px 4px;
+	font-size: 90%;
+	font-family: impact;
+}
+#header #menu ul li{
+	display: inline-block;
+
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: 380%;
+    color: white;
+    font-family: impact;
+
+}
+.centrado{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: impact;
+}
+
+.imagenes{
+	width: 100%;
+	height: auto;
+}
+
+#izquierda{
+	width: 250px;
+	height: auto;
+	overflow: hidden;
+	border: ;
+	margin: auto;
+	float: left;
+}
+#contenidos{
+	width: 800px;
+	margin: auto;
+	border: ;
+	height: auto;
+	overflow: hidden;
+	text-align:center;
+	font-size: 15px;
+}
+
+.lapiz{
+	width: 100%;
+	height: auto;
+	border:0px solid;
+	margin: 5px 0px;
+	float: right;
+	size: 10px;
+
+}
+#contenidos2{
+	width: 800px;
+	margin: auto;
+	border: ;
+	height: auto;
+	overflow: hidden;
+	text-align:center;
+	font-size: 15px;
+}
+#izquierda2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border: ;
+	margin: auto;
+	float: center;
+}
+.compu{
+	width: 30%;
+}
